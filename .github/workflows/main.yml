@@ -28,7 +28,7 @@ on:
           - pantah - (Pixel 7 / Pixel 7 Pro)
           - bluejay - (Pixel 6a)
           - raviole - (Pixel 6 / Pixel 6 Pro)
-        default: all
+        default: bluejay
       feature_set:
         description: "Feature Set"
         type: choice
@@ -38,7 +38,7 @@ on:
           - KSUN
           - BBG
           - None
-        default: KSUN+SUSFS+BBG
+        default: KSUN
       ksu_commit:
         description: "KSU Commit (optional)"
         type: string
