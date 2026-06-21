@@ -3,7 +3,7 @@ name: Prepare and Build
 on:
   workflow_call:
     inputs:
-      config_file:
+      config_file: .github/kernel-config/bluejay.json
         description: "Path to the JSON config file"
         required: true
         type: string
