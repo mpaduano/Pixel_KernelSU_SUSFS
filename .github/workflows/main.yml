@@ -12,7 +12,7 @@ on:
         type: choice
         options: [ Actions, Pre-Release, Release ]
         default: Actions
-      kernel_build_version:
+      kernel_build_version: "bluejay"
         description: "Kernel Version to Build"
         type: choice
         options:
@@ -28,8 +28,8 @@ on:
           - pantah - (Pixel 7 / Pixel 7 Pro)
           - bluejay - (Pixel 6a)
           - raviole - (Pixel 6 / Pixel 6 Pro)
-        default: bluejay
-      feature_set:
+        default: all
+      feature_set: "KSUN"
         description: "Feature Set"
         type: choice
         options:
